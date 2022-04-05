@@ -1,0 +1,61 @@
+@media screen and (max-width: 320px) {
+  body {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    background-color: #f3f3f7;
+  }
+
+  .order__information {
+    margin: 0 auto;
+    width: 288px;
+  }
+
+  .order__number {
+    margin-top: 19px;
+  }
+
+  .order__status p {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+  }
+
+  .order__status p:nth-child(2) {
+    display: none;
+  }
+
+  .order__address {
+    margin-top: 12px;
+    padding: 18px 20px 18px 20px;
+    border: none;
+    background-color: #fff;
+    height: auto;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .order__address span {
+    margin-bottom: 4px;
+    display: block;
+    font-weight: 600;
+  }
+
+  .order__buttons {
+    margin: 0 auto;
+    padding: 11px 0 11px 0;
+    width: 320px;
+    margin-top: 254px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+  }
+
+  a,
+  .button__orange {
+    margin: 5px;
+    width: 288px;
+  }
+}
