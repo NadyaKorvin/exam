@@ -8,7 +8,7 @@ body {
 
 .order__information {
   margin: 0 auto;
-  width: 1060px;
+  width: 700px;
   box-sizing: content-box;
 }
 
@@ -37,7 +37,7 @@ body {
 
 .order__buttons {
   margin: 0 auto;
-  width: 1060px;
+  width: 700px;
   margin-top: 70px;
   display: flex;
   justify-content: space-between;
@@ -66,4 +66,14 @@ a {
 .button__light {
   color: #d15700;
   background-color: #fff0e6;
+}
+
+.button__orange:hover {
+  background-color: #e76203;
+  transition: 0.3s;
+}
+
+.button__light:hover {
+  background-color: #fbe3d2;
+  transition: 0.3s;
 }
